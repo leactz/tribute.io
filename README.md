@@ -5,4 +5,4 @@
 Another thing that I did with this page is to NOT use any ID selectors in my CSS, since I found out last night it is not considered best 
 practice to do so. 
 
-This page is dedicated to all my friens. Past, present and future. */
+This page is dedicated to all my friends. Past, present and future. */
