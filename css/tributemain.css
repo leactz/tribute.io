@@ -162,6 +162,10 @@ MEDIA QUERIES
     margin: 0 auto;
     margin-bottom: 10px;
   }
+
+  p {
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 980px) {
