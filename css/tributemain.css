@@ -35,6 +35,12 @@ p {
   color: #ffffff;
 }
 
+.caption-text {
+  font-size: 0.9em;
+  margin-top: 8px;
+  margin-bottom: -30px;
+}
+
 .par1 {
   margin-top: 30px;
 }
@@ -79,6 +85,7 @@ BODY CONTENT
   padding: 0;
   margin: 0 auto;
   margin-top: 30px;
+  margin-bottom: 6px;
   border: 2px solid #ffffff;
   border-radius: 2px;
 }
@@ -154,5 +161,12 @@ MEDIA QUERIES
   .pictureRow img {
     margin: 0 auto;
     margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+
+  .caption-text {
+    margin-bottom: 8px;
   }
 }
