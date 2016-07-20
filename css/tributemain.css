@@ -1,0 +1,141 @@
+/******
+TRIBUTE: JESUS CHRIST
+CUSTOM STYLES BY LEACTZ AT GRATEFUL HEART DESIGN
+******/
+
+/******
+GLOBAL BASICS
+******/
+body {
+  background-color: #000000;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
+  font-size: 4em;
+}
+
+h3 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2em;
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
+  line-height: 1.3em;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+  background-color: transparent;
+  text-align: justify;
+  border: none;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  color: #ffffff;
+}
+
+.par1 {
+  margin-top: 30px;
+}
+
+/******
+JUMBOTRTON
+******/
+.jumbotron-fluid{
+  align-items: center;
+  background-image: url("../images/jesus-on-cross-1200px.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  height: 300px;
+  box-shadow: 2px 2px 2px #a02c28;
+}
+
+.heroText{
+  margin-top: 0;
+}
+
+
+/******
+BODY CONTENT
+******/
+.bodyContent {
+  margin-top: 20px;
+}
+
+.pictureRow {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pictureRow img {
+  margin: 10px 10px 0px 10px;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+}
+
+.tetelestai {
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+}
+
+/******
+BOTTOM SECTION
+******/
+.bottomSection {
+  margin-top: 30px;
+  background-image: url("../images/jesus-on-cross-1200px.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: -2px -2px 2px #a02c28;
+}
+
+.linksContainer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.linksContainer button {
+  margin: 0 auto;
+  background-color: #000000;
+  box-shadow: 2px 2px 2px #000000;
+  border: none;
+  outline: none;
+}
+
+.linksContainer button:hover {
+  background-color: #ffffff;
+  outline: 0;
+  border: none;
+}
+
+.linksContainer p {
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 20 6px 20px 6px;
+}
+
+.linksContainer button:hover p {
+  color: #000000;
+}
+
+.linksContainer .btn {
+  outline: none;
+}
+
+/******
+MEDIA QUERIES
+******/
+
+@media screen and (max-width: 640px) {
+
+  .pictureRow img {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
