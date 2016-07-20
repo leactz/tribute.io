@@ -54,9 +54,8 @@ JUMBOTRTON
 }
 
 .heroText{
-  margin-top: 0;
+  margin-top: -10px;
 }
-
 
 /******
 BODY CONTENT
@@ -97,19 +96,22 @@ BOTTOM SECTION
 
 .linksContainer {
   margin-top: 30px;
+  padding-bottom: 30px;
   margin-bottom: 30px;
 }
 
 .linksContainer button {
   margin: 0 auto;
+  margin-top: 10px;
   background-color: #000000;
-  box-shadow: 2px 2px 2px #000000;
+  box-shadow: 2px 2px 2px #ffffff;
   border: none;
   outline: none;
 }
 
 .linksContainer button:hover {
   background-color: #ffffff;
+  box-shadow: 2px 2px 2px #000000;
   outline: 0;
   border: none;
 }
@@ -126,6 +128,19 @@ BOTTOM SECTION
 
 .linksContainer .btn {
   outline: none;
+}
+
+.bottomText {
+  margin-top: 50px;
+}
+
+/******
+FOOTER
+******/
+.footer-text {
+  font-size: 0.9em;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /******
